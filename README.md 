@@ -1,0 +1,40 @@
+# LiveCord Welcome Bot
+
+A professional Discord welcome bot with embed editing, invite tracking, and Mimu-style UI.
+
+## Features
+
+- **Welcome System** - Send custom text messages or embeds when members join
+- **Embed Editor** - Create and edit embeds with an easy modal interface
+- **Text + Embed Together** - Use `{embed:name}` in welcome messages
+- **Placeholders** - `{user}`, `{username}`, `{server}`, `{server_icon}`, `{user_avatar}`, `{member_count}`
+- **Prefix Commands** - `&help`, `&embed`, `&welcome`, `&test`, `&ping`, `&serverinfo`
+- **Slash Commands** - `/help`, `/embed`, `/welcome`, `/test`, `/ping`, `/serverinfo`
+- **Professional Help Menu** - Select menu to browse modules
+- **MongoDB Database** - Persistent storage for embeds and settings
+
+## Commands
+
+### Prefix: `&`
+
+| Command | Description |
+|---------|-------------|
+| `&help` | Show help menu with select menu |
+| `&ping` | Check bot latency |
+| `&serverinfo` | Show detailed server information |
+| `&embed create <name>` | Create a new embed |
+| `&embed edit <name>` | Edit an embed (opens modal) |
+| `&embed list` | List all saved embeds |
+| `&embed delete <name>` | Delete an embed |
+| `&embed show <name>` | Show an embed preview |
+| `&welcome channel #channel` | Set welcome channel |
+| `&welcome toggle true/false` | Enable/disable welcome messages |
+| `&welcome message <text>` | Set welcome message (supports `{embed:name}`) |
+| `&welcome embed <name>` | Use only an embed for welcome |
+| `&test` | Test welcome message |
+
+### Slash: `/`
+
+All prefix commands also work as slash commands.
+
+## Quick Setup
