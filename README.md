@@ -38,3 +38,7 @@ A professional Discord welcome bot with embed editing, invite tracking, and Mimu
 All prefix commands also work as slash commands.
 
 ## Quick Setup
+
+npm install 
+
+## Main File ( index.js) for startup
